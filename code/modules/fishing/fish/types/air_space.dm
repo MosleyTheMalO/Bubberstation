@@ -106,7 +106,6 @@
 
 /obj/item/fish/baby_carp
 	name = "baby space carp"
-	fish_id = "baby_carp"
 	desc = "A juvenile spawn of the dreaded space carp. Don't let the innocent looks fool you, they're aggressive little bastards."
 	icon_state = "baby_carp"
 	sprite_height = 3

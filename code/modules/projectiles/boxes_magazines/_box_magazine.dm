@@ -222,6 +222,12 @@
 	drop_sound = 'sound/items/handling/gun/ballistics/magazine/magazine_drop1.ogg'
 	pickup_sound = 'sound/items/handling/gun/ballistics/magazine/magazine_pickup1.ogg'
 
+/obj/item/ammo_box/magazine
+	name = "A magazine (what?)"
+	desc = "A magazine of rounds, they look like error signs..."
+	drop_sound = 'sound/items/handling/gun/ballistics/magazine/magazine_drop1.ogg'
+	pickup_sound = 'sound/items/handling/gun/ballistics/magazine/magazine_pickup1.ogg'
+
 ///Count of number of bullets in the magazine
 /obj/item/ammo_box/magazine/proc/ammo_count(countempties = TRUE)
 	var/boolets = 0

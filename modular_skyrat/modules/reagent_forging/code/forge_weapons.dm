@@ -6,6 +6,12 @@
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_COLOR
 	obj_flags = UNIQUE_RENAME
 	skyrat_obj_flags = ANVIL_REPAIR
+	resistance_flags = FIRE_PROOF | LAVA_PROOF
+	toolspeed = 0.9
+	throwforce = 5
+	throw_speed = 3
+	throw_range = 7
+	var/static/list/nemesis = MOB_BEAST
 
 /obj/item/forging/reagent_weapon/Initialize(mapload)
 	. = ..()
@@ -221,6 +227,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_AFFECT_STATISTICS
 	skyrat_obj_flags = ANVIL_REPAIR
+	resistance_flags = FIRE_PROOF | LAVA_PROOF
 	shield_break_sound = 'sound/effects/bang.ogg'
 	shield_break_leftover = /obj/item/forging/complete/plate
 

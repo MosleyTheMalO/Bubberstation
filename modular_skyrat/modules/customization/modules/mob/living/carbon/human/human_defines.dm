@@ -25,3 +25,5 @@
 	var/bra = "Nude"
 	/// Color of the bra.
 	var/bra_color = "#FFFFFF"
+	/// Chronological age.
+	var/chrono_age = 30

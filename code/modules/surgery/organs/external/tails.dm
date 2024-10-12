@@ -179,6 +179,9 @@
 	feature_key = "tail" // SKYRAT EDIT - Customization - ORIGINAL: feature_key = "tail_cat"
 	// color_source = ORGAN_COLOR_HAIR // SKYRAT EDIT REMOVAL
 
+/datum/bodypart_overlay/mutant/tail/cat/get_global_feature_list()
+	return SSaccessories.sprite_accessories["tail"] // NOVA EDIT CHANGE - ORIGINAL: return SSaccessories.tails_list_felinid
+
 /obj/item/organ/external/tail/monkey
 	name = "monkey tail"
 	preference = "feature_monkey_tail"

@@ -214,29 +214,66 @@
 "Total Positions" = 1
 
 [JANITOR]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 5
 "Total Positions" = 5
 
 [LAWYER]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
 
 [MEDICAL_DOCTOR]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 3
 "Total Positions" = 5
 
 [MIME]
-"Playtime Requirements" = 180
-"Required Account Age" = 0
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 1
+"Total Positions" = 1
+
+[PARAMEDIC]
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 2
+"Total Positions" = 3
+
+[PRISONER]
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 5
+"Total Positions" = 5
+
+[PSYCHOLOGIST]
+"# Playtime Requirements" = 0
+"# Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 1
+"Total Positions" = 1
+
+[QUARTERMASTER]
+"# Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
+"Playtime Requirements" = 2400
+"# Required Account Age" = 7
+"# Required Character Age" = 0
+"Spawn Positions" = 1
+"Total Positions" = 1
+
+[RESEARCH_DIRECTOR]
+"# Human Authority Whitelist Setting" = "HUMANS_ONLY"
+"# Playtime Requirements" = 2400
+"# Required Account Age" = 7
 "# Required Character Age" = 0
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -254,43 +291,6 @@
 "# Required Character Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
-
-[PARAMEDIC]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 3
-
-[PRISONER]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 12
-"Total Positions" = 12
-
-[PSYCHOLOGIST]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
-
-[QUARTERMASTER]
-"# Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
-"# Playtime Requirements" = 0
-"# Required Account Age" = 7
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
-
-[RESEARCH_DIRECTOR]
-"# Human Authority Whitelist Setting" = "HUMANS_ONLY"
-"# Playtime Requirements" = 180
-"# Required Account Age" = 7
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
 
 [ROBOTICIST]
 "Playtime Requirements" = 60

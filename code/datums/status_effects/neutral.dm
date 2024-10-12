@@ -657,7 +657,7 @@
 
 /atom/movable/screen/alert/status_effect/washing_regen/hater
 	desc = "Waaater... Fuck this WATER!!"
-	icon_state = "shower_regen_catgirl"
+	icon_state = "shower_regen_hater"
 
 /datum/status_effect/washing_regen/hot_spring
 	alert_type = /atom/movable/screen/alert/status_effect/washing_regen/hotspring

@@ -43,6 +43,7 @@
 	body_parts_covered = parent_type::body_parts_covered | ARMS
 	armor_type = /datum/armor/gloves_forging_plate_gloves
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_COLOR
+	body_parts_covered = HANDS|ARMS
 
 /datum/armor/gloves_forging_plate_gloves
 	melee = 40

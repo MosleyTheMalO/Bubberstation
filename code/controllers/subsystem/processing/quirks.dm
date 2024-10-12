@@ -27,7 +27,7 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	list(/datum/quirk/item_quirk/settler, /datum/quirk/freerunning),
 	list(/datum/quirk/numb, /datum/quirk/selfaware),
 	list(/datum/quirk/empath, /datum/quirk/evil),
-	//SKYRAT EDIT ADDITION BEGIN
+	//NOVA EDIT ADDITION BEGIN
 	list(/datum/quirk/equipping/nerve_staple, /datum/quirk/nonviolent),
 	list(/datum/quirk/equipping/nerve_staple, /datum/quirk/item_quirk/nearsighted),
 	list(/datum/quirk/no_guns, /datum/quirk/bighands, /datum/quirk/poor_aim),

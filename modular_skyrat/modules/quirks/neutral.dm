@@ -240,10 +240,21 @@ GLOBAL_VAR_INIT(DNR_trait_overlay, generate_DNR_trait_overlay())
 	var/mob/living/carbon/human/human_holder = quirk_holder
 	var/obj/item/organ/internal/tongue/cat/new_tongue = new(get_turf(human_holder))
 
+	ADD_TRAIT(human_holder, TRAIT_WATER_HATER, QUIRK_TRAIT)
+
 	new_tongue.copy_traits_from(human_holder.get_organ_slot(ORGAN_SLOT_TONGUE))
 	new_tongue.Insert(human_holder, special = TRUE, movement_flags = DELETE_IF_REPLACED)
 
-/datum/quirk/item_quirk/canine
+/datum/quirk/feline_aspect/remove()
+	var/mob/living/carbon/human/human_holder = quirk_holder
+	var/obj/item/organ/internal/tongue/new_tongue = new human_holder.dna.species.mutanttongue
+
+	REMOVE_TRAIT(human_holder, TRAIT_WATER_HATER, QUIRK_TRAIT)
+
+	new_tongue.copy_traits_from(human_holder.get_organ_slot(ORGAN_SLOT_TONGUE))
+	new_tongue.Insert(human_holder, special = TRUE, movement_flags = DELETE_IF_REPLACED)
+
+/datum/quirk/canine_aspect
 	name = "Canidae Traits"
 	desc = "Bark. You seem to act like a canine for whatever reason. This will replace most other tongue-based speech quirks."
 	mob_trait = TRAIT_CANINE

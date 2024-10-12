@@ -71,6 +71,7 @@ GLOBAL_LIST_INIT(pet_options, list(
 		custom_pet_carriers = setup_pet_carriers()
 	pet_carrier = possible_colors[1]
 	GLOB.customized_pets[REF(player_client)] = src
+	using_pet_quirk = ("Pet Owner" in player_client?.prefs.all_quirks) // NOVA EDIT ADDITION
 
 /datum/pet_customization/proc/setup_pet_carriers()
 	var/list/list_to_return = list()
@@ -115,6 +116,7 @@ GLOBAL_LIST_INIT(pet_options, list(
 	data["pet_possible_emotes"] = list()
 	for(var/datum/emote/emote as anything in pet_possible_emotes)
 		data["pet_possible_emotes"] += emote.key
+	data["pet_owner_quirk"] = ("Pet Owner" in user.client?.prefs.all_quirks) // NOVA EDIT ADDITION
 
 	return data
 
@@ -136,6 +138,8 @@ GLOBAL_LIST_INIT(pet_options, list(
 /datum/pet_customization/ui_act(action, params, datum/tgui/ui)
 	. = ..()
 	switch(action)
+		if("use_pet_quirk")
+			using_pet_quirk = !using_pet_quirk
 		if("finalize_pet")
 
 			var/pet_type = text2path(params["selected_path"])
