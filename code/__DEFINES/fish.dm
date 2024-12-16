@@ -226,6 +226,20 @@
 ///We multiply the weight of fish inside the loot table by this value if we are goofy enough to fish without a bait.
 #define FISH_WEIGHT_MULT_WITHOUT_BAIT 0.15
 
+
+/**
+ * Flag for fish sources. It makes large explosions less efficient at spawning fish.
+ * Meant for lazy fishing spots that cover multiple turfs (rivers, oceans etc.)
+ */
+#define FISH_SOURCE_FLAG_EXPLOSIVE_MALUS (1<<0)
+/// The fish source is not elegible for random rewards from bluespace fishing rods
+#define FISH_SOURCE_FLAG_NO_BLUESPACE_ROD (1<<1)
+/**
+ * If present, fish that can be caught from this source won't be included in the 'fish caught' score, unless
+ * present in other sources without this flag as well.
+ */
+#define FISH_SOURCE_FLAG_SKIP_CATCHABLES (1<<2)
+
 /**
  * A macro to ensure the wikimedia filenames of fish icons are unique, especially since there're a couple fish that have
  * quite ambiguous names/icon_states like "checkered" or "pike"

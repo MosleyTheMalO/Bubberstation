@@ -1034,6 +1034,9 @@
 /obj/structure/wall_torch/spawns_lit/directional/west,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
+"xA" = (
+/turf/open/water/hot_spring/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
 "xI" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 9
@@ -1128,6 +1131,29 @@
 	dir = 8
 	},
 /turf/open/misc/dirt/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
+"zG" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/closet/crate/wooden/storage_barrel,
+/obj/item/fish/chasm_crab/ice{
+	pixel_y = -4;
+	pixel_x = -3
+	},
+/obj/item/fish/chasm_crab/ice{
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/obj/item/fish/moonfish/dwarf{
+	pixel_x = -5
+	},
+/obj/item/fish/moonfish/dwarf{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "zS" = (
 /obj/structure/closet/crate/wooden/storage_barrel,
@@ -2855,11 +2881,11 @@ tn
 MP
 MP
 MP
-MP
+xA
 xZ
-MP
-MP
-MP
+xA
+xA
+xA
 MP
 MP
 ou
@@ -2897,11 +2923,11 @@ MP
 MP
 MP
 MP
-MP
+xA
 xZ
-MP
-MP
-MP
+xA
+xA
+xA
 MP
 MP
 su
@@ -2937,7 +2963,7 @@ GU
 Oy
 MP
 MP
-MP
+xA
 MX
 qM
 HD
@@ -2983,8 +3009,8 @@ GN
 GN
 ZJ
 GU
-MP
-MP
+xA
+xA
 MP
 IC
 aK
@@ -3286,7 +3312,7 @@ ZJ
 OM
 pa
 oJ
-oJ
+zG
 Te
 Zu
 gK
