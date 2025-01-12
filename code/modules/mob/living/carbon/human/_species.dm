@@ -311,7 +311,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 				qdel(existing_organ)
 			continue
 
-		if(existing_organ && !disallow_customizable_dna_features) // NOVA EDIT CHANGE - Though sometimes we might want to do that. - ORIGINAL: if(existing_organ)
+		if(existing_organ) // NOVA EDIT CHANGE - Though sometimes we might want to do that. - ORIGINAL: if(existing_organ)
 			// we dont want to remove organs that were not from the old species (such as from freak surgery or prosthetics)
 			if(existing_organ.type != old_organ_type && !replace_current)
 				continue
