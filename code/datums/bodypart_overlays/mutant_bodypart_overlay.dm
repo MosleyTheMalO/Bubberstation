@@ -31,7 +31,7 @@
 			feature_name = receiver.dna.species.mutant_organs[parent.type]
 		*/ // SKYRAT EDIT START
 			if(!set_appearance_from_dna(receiver.dna))
-				set_appearance_from_name(receiver.dna.species.mutant_organs[parent.type])
+				set_appearance_from_name(receiver.dna.species.mutant_organs[parent.type] || pick(get_global_feature_list()))
 		// SKYRAT EDIT END
 		// SKYRAT EDIT START - Puts the following line in an else block
 		else
